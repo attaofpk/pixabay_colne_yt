@@ -15,7 +15,7 @@ function Navebar() {
             <button onClick={()=>fetchImageByCategory('travel')} type="button" className="btn btn-light">Travel</button>
             <button onClick={()=>fetchImageByCategory('food')} type="button" className="btn btn-dark">Food</button>
 
-            <button type="button" czzlassName="btn btn-link">Link</button></div>
+            </div>
             <div className='container' style={{width:'800px'}}>
             <input type="text" onChange={(e)=>setQuery(e.target.value)} class="form-control bg-dark text-light" />
 
